@@ -35,8 +35,8 @@ export const HeroSection = () => {
             </h1>
             
             <p className='mt-6 text-white/60 md:text-lg'>
-              <span>// Poliana Bozzano, 26 anos. 
-              Apaixonada por detalhes e interfaces bem pensadas.</span>
+              &#47;&#47; Poliana Bozzano, 26 anos. 
+              Apaixonada por detalhes e interfaces bem pensadas.
             </p>
 
             {/* Terminal */}
