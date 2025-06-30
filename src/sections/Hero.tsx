@@ -30,13 +30,13 @@ export const HeroSection = () => {
 
           <h1 className='mt-8 text-left text-lg md:text-xl text-white/60'>
               <span className="block text-white text-2xl md:text-4xl lg:text-5xl font-serif tracking-wide">
-                const minhaMissao = <span className="text-rose-600 font-bold">"interfaces bonitas e funcionais"</span>;
+                const minhaMissao = <span className="text-rose-600 font-bold"> &quot;interfaces bonitas e funcionais&quot;</span>;
               </span>
             </h1>
             
             <p className='mt-6 text-white/60 md:text-lg'>
-              // Poliana Bozzano, 26 anos. 
-              Apaixonada por detalhes e interfaces bem pensadas.
+              <span>// Poliana Bozzano, 26 anos. 
+              Apaixonada por detalhes e interfaces bem pensadas.</span>
             </p>
 
             {/* Terminal */}

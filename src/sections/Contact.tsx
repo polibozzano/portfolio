@@ -4,6 +4,7 @@ import LinkedinIcon from '@/assets/icons/linkedin.svg';
 import GithubIcon from '@/assets/icons/github.svg';
 import EmailIcon from '@/assets/icons/email.svg';
 import StarIcon from '@/assets/icons/star.svg';
+import Image from 'next/image';
 
 export const ContactSection = () => {
   return (
@@ -68,10 +69,11 @@ export const ContactSection = () => {
           </div>
         </div>
           {/* Foto */}
-          <div className='md:flex-1 w-full flex justify-center'>
-          <img src={new URL('@/assets/images/dust2.png', import.meta.url).href} alt="Foto do Dust, meu gato"
-          className='object-cover rounded-3xl w-[220px] h-[290px] lg:w-[320px] lg:h-[380px]' />
-        </div>
+          <Image
+            src={Dust}
+            alt="Foto do Dust, meu gato"
+            className='object-cover rounded-3xl w-[220px] h-[290px] lg:w-[320px] lg:h-[380px]'
+          />
       </div>
     </div>
   </section>
